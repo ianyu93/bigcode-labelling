@@ -20,4 +20,4 @@ echo "$code_fp"
 
 python transform.py "$tasks_fp" "$code_fp"
 
-label-studio start my_project --init  --label-config config.xml
+label-studio start bigcode-pii --init  --label-config config.xml
